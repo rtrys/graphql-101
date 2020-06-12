@@ -1,0 +1,27 @@
+{
+  "name": "graphql-101",
+  "version": "1.0.0",
+  "description": "Graphql example",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:rtrys/graphql-101.git"
+  },
+  "keywords": [
+    "hapi",
+    "api"
+  ],
+  "author": "Hugo Ortiz <hugo.er.ortiz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.14.3",
+    "graphql": "^15.1.0"
+  }
+}
